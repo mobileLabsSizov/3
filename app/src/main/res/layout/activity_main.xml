@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.33"
+        android:layout_margin="0.02dp"
+        android:layout_marginStart="0.02dp"
+        android:layout_marginEnd="0.02dp"
+        android:text="Show data"
+        android:onClick="showData"
+        android:gravity="center"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.33"
+        android:layout_margin="0.02dp"
+        android:layout_marginStart="0.02dp"
+        android:layout_marginEnd="0.02dp"
+        android:text="Add data"
+        android:onClick="addData"
+        android:gravity="center"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.33"
+        android:layout_margin="0.02dp"
+        android:layout_marginStart="0.02dp"
+        android:layout_marginEnd="0.02dp"
+        android:text="Update data"
+        android:onClick="updateData"
+        android:gravity="center"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
